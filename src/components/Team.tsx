@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
   ShieldCheck,
   Check,
@@ -51,13 +51,17 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
   // Horizontal scroll container reference
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
+  // Ensure scroll container starts at default position (0) on mount & language change
+  useEffect(() => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollLeft = 0;
+    }
+  }, [currentLang]);
+
   const scroll = (direction: 'prev' | 'next') => {
     if (!scrollContainerRef.current) return;
-    const cardWidth = 320;
-    // In RTL, scrolling "next" moves to the left in coordinate terms or right visually
-    const multiplier = isRtl
-      ? direction === 'next' ? -cardWidth : cardWidth
-      : direction === 'next' ? cardWidth : -cardWidth;
+    const cardWidth = 300;
+    const multiplier = direction === 'next' ? cardWidth : -cardWidth;
 
     scrollContainerRef.current.scrollBy({
       left: multiplier,
@@ -90,7 +94,7 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* Section Header with Horizontal Scroll Controls */}
+        {/* Section Header with Horizontal Scroll Controls (visible on tablet/mobile) */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 text-start">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -112,8 +116,8 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
             <div className="h-1 w-16 bg-gradient-to-r from-amber-600 to-amber-400 rounded-full mt-3" />
           </motion.div>
 
-          {/* Navigation Controls for Horizontal Browsing */}
-          <div className="flex items-center gap-2.5 shrink-0">
+          {/* Navigation Controls for Horizontal Browsing on mobile/tablet */}
+          <div className="flex items-center gap-2.5 shrink-0 lg:hidden">
             <span className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-[#8C7A65]">
               <MoveHorizontal className="w-3.5 h-3.5 text-[#B45309]" />
               <span>{isRtl ? 'پیمایش افقی اساتید' : 'Scroll faculty'}</span>
@@ -122,29 +126,21 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
             <button
               type="button"
               onClick={() => scroll('prev')}
-              title={isRtl ? 'استاد بعدی' : 'Previous trainer'}
+              title={isRtl ? 'استاد قبلی' : 'Previous trainer'}
               className="w-10 h-10 rounded-xl bg-white hover:bg-amber-50 active:scale-95 border border-[#E8E2D4] hover:border-amber-400 text-[#0B1524] flex items-center justify-center shadow-xs transition-all cursor-pointer"
-              aria-label="Scroll backward"
+              aria-label="Scroll left"
             >
-              {isRtl ? (
-                <ChevronRight className="w-5 h-5 text-[#B45309]" />
-              ) : (
-                <ChevronLeft className="w-5 h-5 text-[#B45309]" />
-              )}
+              <ChevronLeft className="w-5 h-5 text-[#B45309]" />
             </button>
 
             <button
               type="button"
               onClick={() => scroll('next')}
-              title={isRtl ? 'استاد قبلی' : 'Next trainer'}
+              title={isRtl ? 'استاد بعدی' : 'Next trainer'}
               className="w-10 h-10 rounded-xl bg-white hover:bg-amber-50 active:scale-95 border border-[#E8E2D4] hover:border-amber-400 text-[#0B1524] flex items-center justify-center shadow-xs transition-all cursor-pointer"
-              aria-label="Scroll forward"
+              aria-label="Scroll right"
             >
-              {isRtl ? (
-                <ChevronLeft className="w-5 h-5 text-[#B45309]" />
-              ) : (
-                <ChevronRight className="w-5 h-5 text-[#B45309]" />
-              )}
+              <ChevronRight className="w-5 h-5 text-[#B45309]" />
             </button>
           </div>
         </div>
@@ -175,7 +171,7 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
         </motion.div>
 
         {/* Mobile Swipe Hint */}
-        <div className="sm:hidden flex items-center justify-between mb-3 text-[11px] text-[#8C7A65] font-medium px-1">
+        <div className="lg:hidden flex items-center justify-between mb-3 text-[11px] text-[#8C7A65] font-medium px-1">
           <span className="flex items-center gap-1 text-[#B45309]">
             <MoveHorizontal className="w-3.5 h-3.5 animate-pulse" />
             <span>{isRtl ? 'برای مشاهده سایر اساتید به راست یا چپ بکشید' : 'Swipe horizontally to view all'}</span>
@@ -185,10 +181,11 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
           </span>
         </div>
 
-        {/* Mobile-Optimized & Horizontally Scrollable Team Track */}
+        {/* Team Track: Grid of 5 on desktop (lg+), clean horizontal scroll on mobile/tablet */}
         <div
           ref={scrollContainerRef}
-          className="flex overflow-x-auto gap-5 pb-6 pt-2 px-1 text-start snap-x snap-mandatory scroll-smooth touch-pan-x"
+          dir="ltr"
+          className="flex lg:grid lg:grid-cols-5 overflow-x-auto lg:overflow-x-visible gap-4 md:gap-5 pb-6 lg:pb-0 pt-2 px-1 snap-x snap-mandatory scroll-smooth touch-pan-x"
           style={{
             scrollbarWidth: 'thin',
             scrollbarColor: '#D2C9B6 transparent',
@@ -207,7 +204,8 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                 viewport={{ once: true, amount: 0.15 }}
                 transition={{ delay: index * 0.08, duration: 0.45 }}
                 onClick={() => setActiveMemberId((prev) => (prev === member.id ? null : member.id))}
-                className={`group relative h-[400px] w-[290px] sm:w-[310px] shrink-0 snap-start rounded-2xl overflow-hidden border transition-all duration-300 bg-white flex flex-col justify-end cursor-pointer shadow-sm hover:shadow-xl ${
+                dir={isRtl ? 'rtl' : 'ltr'}
+                className={`group relative h-[400px] w-[280px] sm:w-[300px] lg:w-full shrink-0 snap-start rounded-2xl overflow-hidden border transition-all duration-300 bg-white flex flex-col justify-end cursor-pointer shadow-sm hover:shadow-xl text-start ${
                   isFounder
                     ? 'border-amber-400/80 ring-2 ring-amber-400/20'
                     : 'border-[#E8E2D4] hover:border-amber-400'
@@ -273,8 +271,8 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                   <div
                     className={`grid transition-all duration-300 ease-out ${
                       isActive
-                        ? 'grid-rows-[1fr] opacity-100 mt-2.5 pt-2 border-t border-[#F0EBE1]'
-                        : 'grid-rows-[0fr] opacity-0 group-hover:grid-rows-[1fr] group-hover:opacity-100 group-hover:mt-2.5 group-hover:pt-2 group-hover:border-t group-hover:border-[#F0EBE1]'
+                        ? 'grid-rows-[1fr] opacity-100 mt-2.5 pt-2 border-t border-[#F0EBE1] pointer-events-auto'
+                        : 'grid-rows-[0fr] opacity-0 pointer-events-none group-hover:pointer-events-auto group-hover:grid-rows-[1fr] group-hover:opacity-100 group-hover:mt-2.5 group-hover:pt-2 group-hover:border-t group-hover:border-[#F0EBE1]'
                     }`}
                   >
                     <div className="overflow-hidden">
