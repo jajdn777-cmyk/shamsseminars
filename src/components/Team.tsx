@@ -205,7 +205,7 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                 transition={{ delay: index * 0.08, duration: 0.45 }}
                 onClick={() => setActiveMemberId((prev) => (prev === member.id ? null : member.id))}
                 dir={isRtl ? 'rtl' : 'ltr'}
-                className={`group relative h-[400px] w-[280px] sm:w-[300px] lg:w-full shrink-0 snap-start rounded-2xl overflow-hidden border transition-all duration-300 bg-white flex flex-col justify-end cursor-pointer shadow-sm hover:shadow-xl text-start ${
+                className={`group relative h-[460px] w-[285px] sm:w-[310px] lg:w-full shrink-0 snap-start rounded-2xl overflow-hidden border transition-all duration-300 bg-white flex flex-col justify-end cursor-pointer shadow-sm hover:shadow-xl text-start ${
                   isFounder
                     ? 'border-amber-400/80 ring-2 ring-amber-400/20'
                     : 'border-[#E8E2D4] hover:border-amber-400'
@@ -225,8 +225,8 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                   <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/35 to-transparent pointer-events-none" />
                 </div>
 
-                {/* 2. Top Badge (Founder / Seniority) */}
-                <div className="absolute top-3 inset-x-3 flex items-center justify-between z-10 pointer-events-none">
+                {/* 2. Top Badge (Founder / Seniority) - Cleanly placed at top start, zero top-right labels */}
+                <div className="absolute top-3 start-3 z-10 pointer-events-none">
                   <span
                     className={`px-2.5 py-1 rounded-full text-[10px] font-bold backdrop-blur-xs border shadow-xs ${
                       isFounder
@@ -236,12 +236,6 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                   >
                     {member.badge}
                   </span>
-
-                  {isFounder && (
-                    <span className="px-2 py-0.5 rounded-full text-[9px] font-bold bg-[#0B1524]/80 text-amber-300 border border-amber-400/30">
-                      {isRtl ? 'مرکز شمس' : 'Shams'}
-                    </span>
-                  )}
                 </div>
 
                 {/* 3. Floating Light Content Block at Bottom - Info Appears on Hover */}
@@ -267,7 +261,7 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                     </span>
                   </div>
 
-                  {/* Appears on Hover (and touch active on mobile): Short Info & Action Buttons */}
+                  {/* Appears on Hover (and touch active on mobile): Full Bio Text Paragraph & Action Buttons */}
                   <div
                     className={`grid transition-all duration-300 ease-out ${
                       isActive
@@ -276,9 +270,9 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                     }`}
                   >
                     <div className="overflow-hidden">
-                      {/* Short Info Text (Clean pipe-separated highlights, not a whole paragraph) */}
-                      <p className="text-[11px] text-[#475569] leading-relaxed line-clamp-2 mb-2.5">
-                        {member.pipeBio}
+                      {/* Full Info Text Paragraph - Completely visible on card hover */}
+                      <p className="text-[11px] text-[#334155] leading-relaxed mb-2.5 font-normal">
+                        {member.summary}
                       </p>
 
                       {/* Direct Action Buttons */}

@@ -108,6 +108,12 @@ export default function App() {
           {/* The Model (4-Stage Cycle) */}
           <OrbitModel currentLang={currentLang} />
 
+          {/* Faculty & Team */}
+          <Team
+            currentLang={currentLang}
+            onSelectTrainer={handleSelectTrainer}
+          />
+
           {/* Audiences */}
           <Audiences
             currentLang={currentLang}
@@ -128,12 +134,6 @@ export default function App() {
 
           {/* Roadmap */}
           <Roadmap currentLang={currentLang} />
-
-          {/* Faculty & Team */}
-          <Team
-            currentLang={currentLang}
-            onSelectTrainer={handleSelectTrainer}
-          />
 
           {/* Interactive Booking System */}
           <BookingStepper
