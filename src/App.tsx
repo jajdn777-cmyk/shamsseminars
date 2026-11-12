@@ -1,3 +1,4 @@
+// Shams Teacher Empowerment Center App - Build Release v1.0.1
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { AnimatedBackground } from './components/AnimatedBackground';
