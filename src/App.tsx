@@ -60,6 +60,15 @@ export default function App() {
     scrollToBooking();
   };
 
+  const handleSelectTrainer = (trainerName: string) => {
+    setPreselectedTopic(
+      currentLang === 'fa'
+        ? `هماهنگی سمینار یا مشوره با: ${trainerName}`
+        : `Seminar/Consultation with: ${trainerName}`
+    );
+    scrollToBooking();
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-transparent text-[#0B1524] selection:bg-[#B45309] selection:text-white relative font-body">
       
@@ -121,7 +130,10 @@ export default function App() {
           <Roadmap currentLang={currentLang} />
 
           {/* Faculty & Team */}
-          <Team currentLang={currentLang} />
+          <Team
+            currentLang={currentLang}
+            onSelectTrainer={handleSelectTrainer}
+          />
 
           {/* Interactive Booking System */}
           <BookingStepper

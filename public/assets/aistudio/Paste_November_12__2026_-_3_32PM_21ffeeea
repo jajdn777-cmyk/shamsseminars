@@ -1,0 +1,1529 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Femstech | Education Platform">
+
+    <title>Femstech | Worldwide</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://femstech.com/assets/favicon.jpg">
+
+    <!-- All CSS files -->
+    <link rel="stylesheet" href="https://femstech.com/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://femstech.com/assets/vendor/fontawesome/font-awesome.css">
+    <link rel="stylesheet" href="https://femstech.com/assets/vendor/slickslider/slick.css">
+    <link rel="stylesheet" href="https://femstech.com/assets/vendor/jquery-magnific-popup/jquery.magnific-popup.css">
+    <link rel="stylesheet" href="https://femstech.com/assets/vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="https://femstech.com/assets/css/app.css">
+
+</head>
+
+<body class="custom-cursor locked">
+
+    <!-- cursor style  -->
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <!-- Main Wrapper Start -->
+    <div id="main-wrapper" class="main-wrapper">
+        <!-- Header Area start -->
+        <header>
+            <nav class="main-menu">
+                <div class="container">
+                    <div class="main-menu__block">
+                        <div class="main-menu__left">
+                            <div class="main-menu__logo">
+                                <a href="https://femstech.com">
+                                    <img width="100" src="https://femstech.com/assets/images/log.png"
+                                        alt="Femstech">
+                                </a>
+                            </div>
+                            <div class="main-menu__nav">
+                                <ul class="main-menu__list ">
+                                    <li><a class="active"
+                                            href="https://femstech.com">Home</a></li>
+                                    <li><a class=""
+                                            href="https://femstech.com/events">Events</a></li>
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);">StudyHub</a>
+                                        <ul class="drops">
+                                            <li><a class=""
+                                                    href="https://femstech.com/sessions">Sessions</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/courses">Courses</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/webinars">Webinars</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);">Talks</a>
+                                        <ul class="drops">
+                                            <li><a class=""
+                                                    href="https://femstech.com/empower-chat">Empower Chat</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/podcasts">Podcast</a></li>
+                                            
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);">Community</a>
+                                        <ul class="drops">
+                                            <li><a class=""
+                                                    href="https://femstech.com/mypeer-sponsorship-model">MyPeer Sponsorship Model</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/announcements">Announcements</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/scholarships">Scholarships</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/funds">Funds</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);">About Us</a>
+                                        <ul class="drops">
+                                            <li><a class=""
+                                                    href="https://femstech.com/about">About Us</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/teams">Our Teams</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/advisory-board">Advisory Board</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/teachers">Our Teachers</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/organization-chart">Organization Chart</a></li>
+                                            <li><a class=""
+                                                    href="https://femstech.com/partnerships">Partnerships</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="javascript:void(0);">Branches</a>
+                                        <ul class="drops">
+                                            <li>
+                                                <a class=""
+                                                    href="https://femstech.com/branches/femstech-namibia">
+                                                    <img
+                                                        width="40"
+                                                        height="20"
+                                                        class="mr-2"
+                                                        src="https://femstech.com/assets/images/branches/namibia.png" alt="Namibia">
+                                                        &nbsp;Femstech Namibia
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="main-menu__right">
+                            
+                            <a href="/contact" class="educate-btn sm d-xl-flex d-none"><span
+                                    class="educate-btn__curve"></span>Reach Us</a>
+                            <a href="#" class="main-menu__toggler mobile-nav__toggler">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Sticky Header -->
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div>
+        </div>
+        <!-- Hero Banner Start -->
+<section class="hero-banner-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-8">
+                <div class="text_block">
+                    <h1 class="hero_title mb-16">Innovating today, <span>brighter
+                            <img src="https://femstech.com/assets/media/shapes/line-vector-2.png" alt=""
+                                class="line_vector"></span> tomorrow</h1>
+                    <p class="mb-48">
+                        Empowering Afghan women in tech, Femstech bridges education and employment gaps, transforming
+                        dreams into reality amidst adversity. Join us in building a thriving, tech-driven future.
+                    </p>
+                    <div class="btn-block">
+                        <a href="https://femstech.com/about" class="educate-btn sec-2"><span
+                                class="educate-btn__curve"></span>About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img_block">
+            <div>
+                <img src="https://femstech.com/assets/media/banners/hero-banner-2/main-img.png" alt=""
+                    class="banner_main_img">
+            </div>
+            <a href="https://youtu.be/RhV7gCa8_IA" target="_blank" class="play-btn">
+                <i class="fas fa-play"></i>
+              </a>
+                          
+        </div>
+        <div class="row">
+            <div class="col-xxl-6 col-xl-8 col-lg-10">
+                <div class="row features_row">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="feature__card">
+                            <div class="feature__icon">
+                                <img src="https://femstech.com/assets/media/icons/Quality.png" alt="">
+                            </div>
+                            <div class="feature__content">
+                                <h5 class="mb-8">Mission</h5>
+                                <p>Empower women in tech with skills and opportunities.</p>
+                                <img src="https://femstech.com/assets/media/shapes/feture-bg-shape.png" alt=""
+                                    class="feature-bg-shape">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="feature__card">
+                            <div class="feature__icon">
+                                <img src="https://femstech.com/assets/media/icons/Check-mark.png" alt="">
+                            </div>
+                            <div class="feature__content">
+                                <h5 class="mb-8">Vission</h5>
+                                <p>Transform tech for women, bridging global gaps.</p>
+                                <img src="https://femstech.com/assets/media/shapes/feture-bg-shape.png" alt=""
+                                    class="feature-bg-shape">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-md-block d-none wow fadeInUp" data-wow-delay="600ms">
+                        <div class="feature__card">
+                            <div class="feature__icon">
+                                <img src="https://femstech.com/assets/media/icons/star.png" alt="">
+                            </div>
+                            <div class="feature__content">
+                                <h5 class="mb-8">Tech Courses</h5>
+                                <p>Comprehensive online tech courses tailored for women.</p>
+                                <img src="assets/media/shapes/feture-bg-shape.png" alt="" class="feature-bg-shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero Banner End -->
+
+<!-- About Area Start -->
+<section class="py-60 mt-60">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-48 mb-lg-0">
+                <div class="heading mb-16">
+                    <h6 class="color-primary mb-8">–––– About Us</h6>
+                    <h2>Cultivating a Digital Learning <span class="fm-sec">Ecosystem.</span></h2>
+                </div>
+                <p class="mb-32">Femstech empowers women in tech, bridging education and job gaps through skill-building
+                    and opportunities, especially in regions like Afghanistan.</p>
+                <div class="about__card mb-24 wow fadeInLeft" data-wow-delay="200ms">
+                    <div class="about__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/star.png" alt="">
+                    </div>
+                    <div class="about__card__content">
+                        <h5 class="mb-4p">We have our mission</h5>
+                        <p>We are on a mission to revolutionize the tech landscape for women. Our central goal is to
+                            empower women, nurture their aspirations, elevate their technological expertise, acknowledge
+                            exceptional talent, and open doors to new horizons through our online platform and
+                            collaborative initiatives</p>
+                    </div>
+                </div>
+                <div class="about__card mb-24 wow fadeInLeft" data-wow-delay="400ms">
+                    <div class="about__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/Check-mark.png" alt="">
+                    </div>
+                    <div class="about__card__content">
+                        <h5 class="mb-4p">We have our vission</h5>
+                        <p>Our vision at Femstech is to foster a world where women in Afghanistan and other underserved
+                            regions are leaders in the technology and computer science sectors. </p>
+                    </div>
+                </div>
+                <div class="text-end wow fadeInUp" data-wow-delay="600ms">
+                    <a href="https://femstech.com/about" class="educate-btn"><span class="educate-btn__curve"></span>Learn
+                        More</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="educate-tilt"
+                    data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 2, "speed": 700, "scale": 1 }'>
+                    <img src="https://femstech.com/assets/images/mesc/exp2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Area End -->
+
+<!-- Brands Area Start -->
+<div class="py-80 bg-white">
+    <div class="brands-slider">
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-01.jpeg" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-02.jpeg" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-03.jpeg" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-04.jpeg" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-05.jpeg" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-06.jpeg" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-07.jpeg" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-08.png" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-09.png" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-10.png" alt="">
+        </div>
+                <div class="brand">
+            <img class="enhaceImage" src="https://femstech.com/assets/images/partners/img-11.jpeg" alt="">
+        </div>
+            </div>
+</div>
+<!-- Brands Area End -->
+
+<!-- Courses Category Area Start -->
+<section class="py-60 ">
+    <div class="container">
+        <div class="section-title mb-48">
+            <div class="heading">
+                <h6 class="color-primary mb-8">–––– Course Categories</h6>
+                <h2>Begin Your Learning,<br> Something For <span class="fm-sec">Everyone</span></h2>
+            </div>
+            <a href="https://femstech.com/courses" class="educate-btn d-md-block d-none"><span
+                    class="educate-btn__curve"></span>View
+                All</a>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="150ms">
+                <div class="course__category__card_2 mb-24">
+                    <img src="https://femstech.com/assets/media/courses/categories/c2-1.png" alt="" class="image">
+                    <div class="course__category__card_text">
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKyHxkl5-1ojlqYEXzSQLDv7"
+                            class="course__category__card_title h4 mb-16">Web Design</a>
+                        <p class="category_info_text">
+                            Learn the art of creating visually stunning, user-friendly, and responsive websites with our
+                            comprehensive Web Design course, covering HTML, CSS, JavaScript, and modern design
+                            principles
+                        </p>
+                        <ul class="category__info p-0 mb-8">
+                            <li><i class="fas fa-star"></i>5</li>
+                            <li><i class="fal fa-graduation-cap"></i>3 Teachers</li>
+                            <li><i class="fal fa-clock"></i>20+ Hours</li>
+                        </ul>
+                        <a target="_blank"
+                            href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKyHxkl5-1ojlqYEXzSQLDv7"
+                            class="educate-btn sec"><span class="educate-btn__curve"></span>
+                            Explore Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                <div class="course__category__card_2 mb-24">
+                    <img src="https://femstech.com/assets/media/courses/categories/c2-2.png" alt="" class="image">
+                    <div class="course__category__card_text">
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKz7gwVXWr0RJgupODJe3uBF"
+                            target="_blank" class="course__category__card_title h4 mb-16">Project Management</a>
+                        <p class="category_info_text">
+                            Master the skills to plan, execute, and oversee projects effectively with our Project
+                            Management course, focusing on tools, methodologies, and leadership strategies for success
+                        </p>
+                        <ul class="category__info p-0 mb-8">
+                            <li><i class="fas fa-star"></i>5</li>
+                            <li><i class="fal fa-graduation-cap"></i>2 Teachers</li>
+                            <li><i class="fal fa-clock"></i>10+ Hours</li>
+                        </ul>
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKz7gwVXWr0RJgupODJe3uBF"
+                            target="_blank" class="educate-btn sec"><span class="educate-btn__curve"></span>Explore
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="450ms">
+                <div class="course__category__card_2 mb-24">
+                    <img src="https://femstech.com/assets/media/courses/categories/c2-3.png" alt="" class="image">
+                    <div class="course__category__card_text">
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKzRCkiLMfsbOifPWMAnm0sQ"
+                            target="_blank" class="course__category__card_title h4 mb-16">Network Arts</a>
+                        <p class="category_info_text">
+                            Join the Network Cisco Academy to gain hands-on expertise in networking, mastering Cisco
+                            technologies.</p>
+                        <ul class="category__info p-0 mb-8">
+                            <li><i class="fas fa-star"></i>5</li>
+                            <li><i class="fal fa-graduation-cap"></i>2 Teachers</li>
+                            <li><i class="fal fa-clock"></i>5+ Hours</li>
+                        </ul>
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKzRCkiLMfsbOifPWMAnm0sQ"
+                            target="_blank" class="educate-btn sec"><span class="educate-btn__curve"></span>Explore
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="600ms">
+                <div class="course__category__card_2 mb-24 mb-xl-0">
+                    <img src="https://femstech.com/assets/media/courses/categories/c2-4.png" alt="" class="image">
+                    <div class="course__category__card_text">
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKwpGM_QPZt9UMd1YCLqrIS4"
+                            target="_blank" class="course__category__card_title h4 mb-16">Graphic Design</a>
+                        <p class="category_info_text">
+                            Unleash your creativity with our Graphic Design course, learning industry-standard tools and
+                            techniques to craft visually compelling designs for print, web, and branding.
+                        </p>
+                        <ul class="category__info p-0 mb-8">
+                            <li><i class="fas fa-star"></i>5</li>
+                            <li><i class="fal fa-graduation-cap"></i>2 Teachers</li>
+                            <li><i class="fal fa-clock"></i>15+ Hours</li>
+                        </ul>
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKwpGM_QPZt9UMd1YCLqrIS4"
+                            target="_blank" class="educate-btn sec"><span class="educate-btn__curve"></span>Explore
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="750ms">
+                <div class="course__category__card_2 mb-24 mb-xl-0">
+                    <img src="https://femstech.com/assets/media/courses/categories/c2-5.png" alt="" class="image">
+                    <div class="course__category__card_text">
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKzNmOk_Oks_xWNyXqo_vPkD"
+                            target="_blank" class="course__category__card_title h4 mb-16">Artificial Intelligence</a>
+                        <p class="category_info_text">
+                            Explore the future of technology with our Artificial Intelligence course, delving into
+                            machine learning, neural networks, and AI applications to solve real-world problems
+                        </p>
+                        <ul class="category__info p-0 mb-8">
+                            <li><i class="fas fa-star"></i>5</li>
+                            <li><i class="fal fa-graduation-cap"></i>3 Teachers</li>
+                            <li><i class="fal fa-clock"></i>20+</li>
+                        </ul>
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKzNmOk_Oks_xWNyXqo_vPkD"
+                            target="_blank" class="educate-btn sec"><span class="educate-btn__curve"></span>Explore
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="900ms">
+                <div class="course__category__card_2 mb-24 mb-xl-0">
+                    <img src="https://femstech.com/assets/media/courses/categories/c2-6.png" alt="" class="image">
+                    <div class="course__category__card_text">
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKzbdjkGE0_HCMtINm2VvNov"
+                            target="_blank" class="course__category__card_title h4 mb-16">Cloud Computing</a>
+                        <p class="category_info_text">
+                            Discover the power of Cloud Computing with our course, mastering cloud platforms, deployment
+                            models, and services like AWS, Azure, and Google Cloud for scalable solutions.</p>
+                        <ul class="category__info p-0 mb-8">
+                            <li><i class="fas fa-star"></i>5</li>
+                            <li><i class="fal fa-graduation-cap"></i>2 Teachers</li>
+                            <li><i class="fal fa-clock"></i>12+</li>
+                        </ul>
+                        <a href="https://www.youtube.com/playlist?list=PLpIJDBtdfSKzbdjkGE0_HCMtINm2VvNov"
+                            target="_blank" class="educate-btn sec"><span class="educate-btn__curve"></span>Explore
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Courses Category Area End -->
+
+<!-- Courses Area Start -->
+<section class="courses-2 py-60">
+    <div class="container">
+        <div class="section-title mb-48">
+            <div class="heading">
+                <h6 class="color-primary mb-8">–––– Popular Courses</h6>
+                <h2>Courses Presented To <br> You By <span class="fm-sec">Experts</span></h2>
+            </div>
+            <a href="https://femstech.com/courses" class="educate-btn d-md-block d-none"><span
+                    class="educate-btn__curve"></span>View
+                All</a>
+        </div>
+        <div class="row">
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/desktop.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/1">Python</a></h4>
+                            <p class="h6 mb-24">Introduction to Python Programming</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>5+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-08.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/1" class="h6 mb-4p">Sayed Mohammad Reza Dawodi</a>
+                                    <p>Instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Beginner
+                                </span>
+                            </div>
+                            <a href="courses/1" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/ai.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/2">Python</a></h4>
+                            <p class="h6 mb-24">Data Science with Python</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>2+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-01.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/2" class="h6 mb-4p">Aswathy Raj</a>
+                                    <p>Instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Advanced
+                                </span>
+                            </div>
+                            <a href="courses/2" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/desktop.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/3">AWS</a></h4>
+                            <p class="h6 mb-24">AWS Comprehensive Course</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>5+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-10.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/3" class="h6 mb-4p">Masouma Haidari</a>
+                                    <p>Instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Beginner
+                                </span>
+                            </div>
+                            <a href="courses/3" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/desktop.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/4">Web Design</a></h4>
+                            <p class="h6 mb-24">Web Design Comprehensive Course</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>5+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-09.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/4" class="h6 mb-4p">Haris Muhammadi</a>
+                                    <p>Instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Intermediate
+                                </span>
+                            </div>
+                            <a href="courses/4" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/desktop.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/5">Cloud</a></h4>
+                            <p class="h6 mb-24">Building Private Cloud Using OpenStack Tools</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>3+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-05.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/5" class="h6 mb-4p">Sayed Mansoor Rahimy</a>
+                                    <p>General Director</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Advanced
+                                </span>
+                            </div>
+                            <a href="courses/5" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/ai.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/6">Machine Learning</a></h4>
+                            <p class="h6 mb-24">Machine Learning and Data Science with Python</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>5+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-06.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/6" class="h6 mb-4p">Zaman Rahimi</a>
+                                    <p>Instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Beginner
+                                </span>
+                            </div>
+                            <a href="courses/6" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/desktop.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/7">Python Programming</a></h4>
+                            <p class="h6 mb-24">🚀 Looking to master Python programming? Look no further!</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>19+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-07.png" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/7" class="h6 mb-4p">Somaia Zabihi</a>
+                                    <p>Academic Director</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Beginner
+                                </span>
+                            </div>
+                            <a href="courses/7" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/ps.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/8">Graphics Design</a></h4>
+                            <p class="h6 mb-24">🎨 Exciting News! Join our Graphic Design Course with Ariful Islam! 🎨</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>4+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-13.png" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/8" class="h6 mb-4p">Ariful Islam</a>
+                                    <p>Instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Beginner
+                                </span>
+                            </div>
+                            <a href="courses/8" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/desktop.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/9">JavaScript</a></h4>
+                            <p class="h6 mb-24">Unlock the Power of JavaScript with Haris Muhammadi!</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>20+ Hours</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-09.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/9" class="h6 mb-4p">Haris Muhammadi</a>
+                                    <p>Instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Beginner
+                                </span>
+                            </div>
+                            <a href="courses/9" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/data-analytics.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/10">Advanced Data Analytics and Professional Development</a></h4>
+                            <p class="h6 mb-24">Program Update: Advanced Data Analytics and Professional Development</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>Ongoing</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-14.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/10" class="h6 mb-4p">Mr. Alham O. Hotaki</a>
+                                    <p>Program Director</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Intermediate
+                                </span>
+                            </div>
+                            <a href="courses/10" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="course__card mb-24">
+                    <div class="course__card__icon">
+                        <img src="https://femstech.com/assets/media/icons/tech-talk.png" alt="">
+                    </div>
+                    <div class="course__card__content">
+                        <div class="left__block">
+                            <h4 class="mb-4p"><a href="courses/11">Tech Talk Series</a></h4>
+                            <p class="h6 mb-24">Exciting Kickoff to Our Tech Talk Program</p>
+                            <ul class="course_info p-0 mb-32">
+                                <li><i class="fal fa-presentation"></i>Practical</li>
+                                <li><i class="fal fa-clock"></i>Ongoing</li>
+                            </ul>
+                            <div class="author_card">
+                                <img width="50" height="50" src="https://femstech.com/assets/images/teachers/img-16.jpeg" alt=""
+                                    class="author_img">
+                                <div class="author_text_block">
+                                    <a href="courses/11" class="h6 mb-4p">Mr. Baqir Nekfar</a>
+                                    <p>Speaker</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__block">
+                            <div class="price_block mb-16">
+                                <div class="price_vector">
+                                    <img src="https://femstech.com/assets/media/shapes/vector-group.png" alt="">
+                                </div>
+                                <span class="h6 color-white">
+                                    Intermediate
+                                </span>
+                            </div>
+                            <a href="courses/11" class="educate-btn sm mx-xl-auto me-2"><span
+                                    class="educate-btn__curve"></span>View more</a>
+                        </div>
+                        <img src="https://femstech.com/assets/media/shapes/vector-1.png" alt="" class="bottom_vector">
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+<!-- Courses Area End -->
+
+<!-- Team Area Start -->
+<section class="team py-60">
+    <img src="https://femstech.com/assets/media/shapes/dots-1.png" alt="" class="dots">
+    <img src="https://femstech.com/assets/media/icons/3dtag.png" alt="" class="tag">
+    <div class="row align-items-center">
+        <div class="col-xl-5">
+            <div class="team_one__content mb-64 mb-xl-0">
+                <div class="heading mb-16">
+                    <h6 class="color-primary mb-8">–––– Our Leadership Board </h6>
+                    <h2>Meet the Dedicated <br> Members Shaping<br> The <span class="fm-sec">Future.</span></h2>
+                </div>
+                <p class="mb-24">
+                    Amazing Team Behind The Femstech.</p>
+                <a href="https://femstech.com/teams" class="educate-btn"><span class="educate-btn__curve"></span>View All</a>
+            </div>
+        </div>
+        <div class="col-xl-7">
+            <div class="team-slider py-60 ms-2 ms-xl-0">
+                                <div class="team__card mb-24">
+                    <div class="team__img_block " style="height: 400px; width: 100%;">
+                        <img src="https://femstech.com/assets/images/team/morsal.jpg" alt="" class="team_img">
+                        <div class="team__content_block" style="width: 90%;">
+                            <div class="team__text_block">
+                                <h5 class="mb-8"><a href="team-detail.html">Dr. Mursal Dawodi</a></h5>
+                                <ul class="team__info unstyled mb-2">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/mursal-dawodi/" target="_blank">
+                                            <i class="fas fa-globe"></i> LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h5>President</h5>
+                                <p class="team_info_text mb-10">
+                                    Dr.-Eng| 2023 L&#039;Oréal-UNESCO FWIS International Awards Special Tribute| FemsTech Worldwide | Women’s education activist | Technische Universität München | MEXT and DAAD Scholar| Top 7 Women Leaders in Data and AI 2024
+                                </p>
+                                <img src="https://femstech.com/assets/media/shapes/feture-bg-shape.png" alt=""
+                                    class="text_block_bg_shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="team__card mb-24">
+                    <div class="team__img_block " style="height: 400px; width: 100%;">
+                        <img src="https://femstech.com/assets/images/team/jawid.jpeg" alt="" class="team_img">
+                        <div class="team__content_block" style="width: 90%;">
+                            <div class="team__text_block">
+                                <h5 class="mb-8"><a href="team-detail.html">Dr. Jawid  Baktash </a></h5>
+                                <ul class="team__info unstyled mb-2">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/dr-jawid-baktash-1bb774211/" target="_blank">
+                                            <i class="fas fa-globe"></i> LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h5>CEO</h5>
+                                <p class="team_info_text mb-10">
+                                    Software Engineer | Project Manager | Associate Professor
+                                </p>
+                                <img src="https://femstech.com/assets/media/shapes/feture-bg-shape.png" alt=""
+                                    class="text_block_bg_shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="team__card mb-24">
+                    <div class="team__img_block " style="height: 400px; width: 100%;">
+                        <img src="https://femstech.com/assets/images/team/alham.jpeg" alt="" class="team_img">
+                        <div class="team__content_block" style="width: 90%;">
+                            <div class="team__text_block">
+                                <h5 class="mb-8"><a href="team-detail.html">Alham Omar Hotaki M.Sc.</a></h5>
+                                <ul class="team__info unstyled mb-2">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/aohotaki/" target="_blank">
+                                            <i class="fas fa-globe"></i> LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h5>Program Director</h5>
+                                <p class="team_info_text mb-10">
+                                    Experienced data scientist and business analyst with 15+ years of expertise in transforming complex datasets into actionable business strategies. Proficient in Python, SQL, TensorFlow, machine learning algorithms, and data visualization tools (PowerBI, Tableau)
+                                </p>
+                                <img src="https://femstech.com/assets/media/shapes/feture-bg-shape.png" alt=""
+                                    class="text_block_bg_shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="team__card mb-24">
+                    <div class="team__img_block " style="height: 400px; width: 100%;">
+                        <img src="https://femstech.com/assets/images/team/somaia.png" alt="" class="team_img">
+                        <div class="team__content_block" style="width: 90%;">
+                            <div class="team__text_block">
+                                <h5 class="mb-8"><a href="team-detail.html">Somaia Zabihi, M.Sc.</a></h5>
+                                <ul class="team__info unstyled mb-2">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/somaiazabihi/" target="_blank">
+                                            <i class="fas fa-globe"></i> LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h5>Academic Director</h5>
+                                <p class="team_info_text mb-10">
+                                    Instructor @ MIT ReACT | Machine Learning, Data Analysis, M.S in Software Engineering,With over eleven years of academic teaching experience, I am passionate about sharing my knowledge and expertise in computer science, software engineering, and data science with learners from diverse backgrounds and contexts.
+                                </p>
+                                <img src="https://femstech.com/assets/media/shapes/feture-bg-shape.png" alt=""
+                                    class="text_block_bg_shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="team__card mb-24">
+                    <div class="team__img_block " style="height: 400px; width: 100%;">
+                        <img src="https://femstech.com/assets/images/team/haris.jpeg" alt="" class="team_img">
+                        <div class="team__content_block" style="width: 90%;">
+                            <div class="team__text_block">
+                                <h5 class="mb-8"><a href="team-detail.html">M. Haris Muhammadi</a></h5>
+                                <ul class="team__info unstyled mb-2">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/muhammadharis19/" target="_blank">
+                                            <i class="fas fa-globe"></i> LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h5>IT Director</h5>
+                                <p class="team_info_text mb-10">
+                                    Highly skilled and experienced Software Developer with a proven track record of delivering high-quality web applications.
+                                </p>
+                                <img src="https://femstech.com/assets/media/shapes/feture-bg-shape.png" alt=""
+                                    class="text_block_bg_shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <div class="team__card mb-24">
+                    <div class="team__img_block " style="height: 400px; width: 100%;">
+                        <img src="https://femstech.com/assets/images/team/marhabin.jpg" alt="" class="team_img">
+                        <div class="team__content_block" style="width: 90%;">
+                            <div class="team__text_block">
+                                <h5 class="mb-8"><a href="team-detail.html">Marhabin Asikzai</a></h5>
+                                <ul class="team__info unstyled mb-2">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/marhabin-asikzai-88bba1214/" target="_blank">
+                                            <i class="fas fa-globe"></i> LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h5>HR &amp;Finance Manager</h5>
+                                <p class="team_info_text mb-10">
+                                    Develop and implement financial strategies to support business growth and sustainability
+                                </p>
+                                <img src="https://femstech.com/assets/media/shapes/feture-bg-shape.png" alt=""
+                                    class="text_block_bg_shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </div>
+</section>
+<!-- Team Area End -->
+
+<!-- Discount Banner Area Start -->
+
+<!-- Discount Banner Area End -->
+
+<!-- Testimonials Area Start -->
+
+<!-- Testimonials Area End -->
+
+<!-- Blogs Area Start -->
+<section class="py-60 ">
+    <div class="container">
+        <div class="section-title mb-48">
+            <div class="heading">
+                <h6 class="color-primary mb-8">–––– Events</h6>
+                <h2>Latest Events By<br> Talented <span class="fm-sec">People!</span></h2>
+            </div>
+            <a href="https://femstech.com/events" class="educate-btn d-md-block d-none"><span class="educate-btn__curve"></span>View
+                All</a>
+        </div>
+        <div class="row">
+            <!-- Blogs Grid  -->
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-2.png" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-04-30</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/1">
+                                    New Trends Toward Data Security and Privacy in Cloud Computing Environment Speaker
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/1"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-3.png" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-03-09</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/2">
+                                    Empowerment Through Education, Building a Resilient Future for Women
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/2"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-4.jpeg" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-11-08</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/3">
+                                    Strategies for Effective Business Development
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/3"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-5.jpeg" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-11-24</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/4">
+                                    Leadership and Management in the Age of AI
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/4"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-6.jpeg" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-12-15</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/5">
+                                    AI &amp; the Human Psyche
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/5"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-7.jpeg" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-12-28</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/6">
+                                    Children and the Digital Future: Why Coding is an Essential Skill?
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/6"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-8.jpeg" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-10-26</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/7">
+                                    Advanced Data Analytics Professional Development Program with Google Certification
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/7"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-9.jpeg" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-10-13</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/8">
+                                    A Journey of Triumph - From Afghanistan to Global Success
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/8"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-10.jpeg" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-10-08</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/9">
+                                    The Impact of Artificial Intelligence on Business
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/9"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-lg-6">
+                <div class="blog_list_card mb-24">
+                    <div class="blog_list_card_img_block">
+                        <img src="https://femstech.com/assets/media/blog/bl-11.jpeg" alt="">
+                    </div>
+                    <div class="blog_card_text_block" >
+                        <div>
+                            <p class="date mb-24">2024-09-22</p>
+                            <div class="tags mb-16">
+                                <span>#education</span><span>#onlineclass</span><span>#learning</span><span>#education</span>
+                            </div>
+                            <h4 class="mb-8">
+                                <a class="blog_title" href="events/10">
+                                    Breaking Into Germany’s Tech Scene: A Developer’s Guide
+                                </a>
+                            </h4>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="author">
+                                <img src="assets/media/users/u-1.png" alt="">
+                                <h6 class="dark-gray">Admin</h6>
+                            </div>
+                            <a href="events/10"
+                                 class="h6 color-primary educate_link_btn">
+                                 Read More
+                                 <i class="far fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+<!-- Blogs Area End -->
+
+        <!-- Footer Area Start -->
+        <footer>
+            <div class="footer_main py-60">
+                <img src="https://femstech.com/assets/media/shapes/vector-7.png" alt="" class="vector_shape">
+                <img src="https://femstech.com/assets/media/shapes/dots-1.png" alt="" class="dots">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="footer_widget">
+                                <a href="https://femstech.com" class="mb-8"><img width="200" src="https://femstech.com/assets/images/log.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-sm-6">
+                            <div class="footer_widget">
+                                <h5 class="medium-black mb-16">Quick Links</h5>
+                                <ul class="unstyled list">
+                                    <li><a href="https://femstech.com/courses"><i class="fad fa-chevron-right"></i>Courses</a>
+                                    </li>
+                                    <li><a href="https://femstech.com/events"><i class="fad fa-chevron-right"></i>Events</a></li>
+                                    <li><a href="https://femstech.com/sessions"><i class="fad fa-chevron-right"></i>Sessions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-sm-6">
+                            <div class="footer_widget">
+                                <h5 class="medium-black mb-16">Explore</h5>
+                                <ul class="unstyled list">
+                                    <li><a href="https://femstech.com/about"><i class="fad fa-chevron-right"></i>About Us</a>
+                                    </li>
+                                    <li><a href="https://femstech.com/teams"><i class="fad fa-chevron-right"></i>Teams</a></li>
+                                    <li><a href="https://femstech.com/teachers"><i class="fad fa-chevron-right"></i>Teachers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 col-sm-6">
+                            <div class="footer_widget">
+                                <h5 class="medium-black mb-16">Information</h5>
+                                <ul class="unstyled list">
+                                    <li><a href="https://femstech.com/contact"><i class="fad fa-chevron-right"></i>ContactUs</a></li>
+                                    <li><a href="https://femstech.com/organization-chart"><i class="fad fa-chevron-right"></i>Organization Chart</a></li>
+                                    <li><a href="https://femstech.com/funds"><i class="fad fa-chevron-right"></i>Funds</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="footer_widget">
+                                <h5 class="medium-black mb-16">Contact Us</h5>
+                                <ul class="unstyled list">
+                                    <li class="mb-16"><i class="fal fa-map-marker-alt"></i>Germany, Munich</li>
+                                    <li class="mb-16"><a href="mailto:contact@femstech.com"><i
+                                                class="fal fa-envelope"></i>contact@femstech.com</a></li>
+                                    <li><a href="tel:+491783585315"><i class="fal fa-phone-alt"></i>+49 178 358 5315</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-row">
+                        <ul class="unstyled social_icons_list">
+                            <li>
+                                <a href="https://www.instagram.com/femstech">
+                                    <img src="assets/media/icons/brands/Instagram.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/femstechWordwide/">
+                                    <img src="https://femstech.com/assets/media/icons/brands/Facebook.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/femtech_af">
+                                    <img src="assets/media/icons/brands/Twitter.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/femstechworldwide/">
+                                    <img src="assets/media/icons/brands/Linkedin.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- Footer Area End -->
+
+    </div>
+
+    <!-- Mobile Menu Start -->
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <div class="mobile-nav__content">
+            
+            <div class="logo-box">
+                <a href="https://femstech.com"><img src="https://femstech.com/assets/images/log.png" alt=""></a>
+            </div>
+            <div class="mobile-nav__container"></div>
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:contact@femstech.com">contact@femstech.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:+491783585315">+49 178 358 5315</a>
+                </li>
+            </ul>
+            <div class="mobile-nav__social">
+                <a href="https://x.com/femtech_af"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/femstechWordwide/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/femstechworldwide/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/femstech"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- search-popup -->
+
+    <!-- back-to-top-start -->
+    <a href="#" class="scroll-top">
+        <svg class="scroll-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </a>
+    <!-- back-to-top-end -->
+
+    <!-- Jquery Js -->
+    <script src="https://femstech.com/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://femstech.com/assets/vendor/jquery/jquery-3.6.3.min.js"></script>
+    <script src="https://femstech.com/assets/vendor/jquery-appear/jquery-appear.js"></script>
+    <script src="https://femstech.com/assets/vendor/jquery-validator/jquery-validator.js"></script>
+    <script src="https://femstech.com/assets/vendor/countdown/jquery.countdown.min.js"></script>
+    <script src="https://femstech.com/assets/vendor/tilt/tilt.jquery.js"></script>
+    <script src="https://femstech.com/assets/vendor/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="https://femstech.com/assets/vendor/slickslider/slick.min.js"></script>
+    <script src="https://femstech.com/assets/vendor/wow/wow.js"></script>
+
+    <!-- Site Scripts -->
+    <script src="https://femstech.com/assets/js/app.js"></script>
+    <script async src="https://www.google.com/recaptcha/api.js"></script>
+</body>
+
+</html>
