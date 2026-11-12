@@ -60,11 +60,11 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
 
   const scroll = (direction: 'prev' | 'next') => {
     if (!scrollContainerRef.current) return;
-    const cardWidth = 300;
-    const multiplier = direction === 'next' ? cardWidth : -cardWidth;
+    const cardWidth = 310;
+    const sign = direction === 'next' ? (isRtl ? -cardWidth : cardWidth) : (isRtl ? cardWidth : -cardWidth);
 
     scrollContainerRef.current.scrollBy({
-      left: multiplier,
+      left: sign,
       behavior: 'smooth',
     });
   };
@@ -184,7 +184,7 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
         {/* Team Track: Grid of 5 on desktop (lg+), clean horizontal scroll on mobile/tablet */}
         <div
           ref={scrollContainerRef}
-          dir="ltr"
+          dir={isRtl ? 'rtl' : 'ltr'}
           className="flex lg:grid lg:grid-cols-5 overflow-x-auto lg:overflow-x-visible gap-4 md:gap-5 pb-6 lg:pb-0 pt-2 px-1 snap-x snap-mandatory scroll-smooth touch-pan-x"
           style={{
             scrollbarWidth: 'thin',
@@ -204,8 +204,7 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                 viewport={{ once: true, amount: 0.15 }}
                 transition={{ delay: index * 0.08, duration: 0.45 }}
                 onClick={() => setActiveMemberId((prev) => (prev === member.id ? null : member.id))}
-                dir={isRtl ? 'rtl' : 'ltr'}
-                className={`group relative h-[460px] w-[285px] sm:w-[310px] lg:w-full shrink-0 snap-start rounded-2xl overflow-hidden border transition-all duration-300 bg-white flex flex-col justify-end cursor-pointer shadow-sm hover:shadow-xl text-start ${
+                className={`group relative min-h-[460px] w-[85vw] max-w-[310px] sm:w-[310px] lg:w-full shrink-0 snap-start rounded-2xl overflow-hidden border transition-all duration-300 bg-white flex flex-col justify-end cursor-pointer shadow-sm hover:shadow-xl text-start ${
                   isFounder
                     ? 'border-amber-400/80 ring-2 ring-amber-400/20'
                     : 'border-[#E8E2D4] hover:border-amber-400'
@@ -222,10 +221,10 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                     loading="lazy"
                   />
                   {/* Subtle top shading for the badge */}
-                  <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/35 to-transparent pointer-events-none" />
+                  <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/40 to-transparent pointer-events-none" />
                 </div>
 
-                {/* 2. Top Badge (Founder / Seniority) - Cleanly placed at top start, zero top-right labels */}
+                {/* 2. Top Badge (Founder / Seniority) */}
                 <div className="absolute top-3 start-3 z-10 pointer-events-none">
                   <span
                     className={`px-2.5 py-1 rounded-full text-[10px] font-bold backdrop-blur-xs border shadow-xs ${
@@ -238,7 +237,7 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                   </span>
                 </div>
 
-                {/* 3. Floating Light Content Block at Bottom - Info Appears on Hover */}
+                {/* 3. Floating Light Content Block at Bottom */}
                 <div
                   className={`relative z-20 m-3 p-3 sm:p-3.5 bg-white/95 backdrop-blur-md rounded-xl border border-[#E8E2D4] group-hover:border-amber-300 shadow-md group-hover:shadow-xl transition-all duration-300 ${
                     isActive ? 'border-amber-300 shadow-xl' : ''
@@ -255,29 +254,25 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                       </p>
                     </div>
 
-                    {/* Subtle sparkle indicator on initial view */}
                     <span className="p-1 rounded-md text-amber-500/70 group-hover:text-amber-600 transition-colors shrink-0">
                       <Sparkles className="w-3.5 h-3.5" />
                     </span>
                   </div>
 
-                  {/* Appears on Hover (and touch active on mobile): Full Bio Text Paragraph & Action Buttons */}
+                  {/* Bio Text Paragraph & Action Buttons: ALWAYS VISIBLE ON MOBILE, HOVER ON DESKTOP */}
                   <div
-                    className={`grid transition-all duration-300 ease-out ${
-                      isActive
-                        ? 'grid-rows-[1fr] opacity-100 mt-2.5 pt-2 border-t border-[#F0EBE1] pointer-events-auto'
-                        : 'grid-rows-[0fr] opacity-0 pointer-events-none group-hover:pointer-events-auto group-hover:grid-rows-[1fr] group-hover:opacity-100 group-hover:mt-2.5 group-hover:pt-2 group-hover:border-t group-hover:border-[#F0EBE1]'
+                    className={`grid transition-all duration-300 ease-out grid-rows-[1fr] opacity-100 mt-2.5 pt-2 border-t border-[#F0EBE1] pointer-events-auto lg:grid-rows-[0fr] lg:opacity-0 lg:pointer-events-none lg:group-hover:pointer-events-auto lg:group-hover:grid-rows-[1fr] lg:group-hover:opacity-100 lg:group-hover:mt-2.5 lg:group-hover:pt-2 lg:group-hover:border-t lg:group-hover:border-[#F0EBE1] ${
+                      isActive ? 'lg:grid-rows-[1fr] lg:opacity-100 lg:pointer-events-auto' : ''
                     }`}
                   >
                     <div className="overflow-hidden">
-                      {/* Full Info Text Paragraph - Completely visible on card hover */}
+                      {/* Full Info Text Paragraph */}
                       <p className="text-[11px] text-[#334155] leading-relaxed mb-2.5 font-normal">
                         {member.summary}
                       </p>
 
                       {/* Direct Action Buttons */}
                       <div className="flex items-center gap-1.5 pt-0.5">
-                        {/* Primary Working Button: Scrolls to booking and pre-selects trainer */}
                         <button
                           type="button"
                           onClick={(e) => {
@@ -296,7 +291,6 @@ export const Team: React.FC<TeamProps> = ({ currentLang, onSelectTrainer }) => {
                           )}
                         </button>
 
-                        {/* Quick WhatsApp Inquiry */}
                         <a
                           href={getWhatsappTrainerUrl(member.name)}
                           target="_blank"
