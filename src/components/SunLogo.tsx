@@ -5,6 +5,7 @@ interface SunLogoProps {
   className?: string;
   size?: number;
   showText?: boolean;
+  showSubtitle?: boolean;
   textClassName?: string;
   subtitle?: string;
   dark?: boolean;
@@ -15,6 +16,7 @@ export const SunLogo: React.FC<SunLogoProps> = ({
   className = '',
   size = 38,
   showText = true,
+  showSubtitle = true,
   textClassName = '',
   subtitle,
   dark = false,
@@ -33,19 +35,15 @@ export const SunLogo: React.FC<SunLogoProps> = ({
           viewBox="0 0 64 64"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full drop-shadow-xs"
+          className="w-full h-full"
         >
-          {/* Outer Astrolabe Ring with Degree Dashes */}
           <circle
             cx="32"
             cy="32"
             r="30"
-            stroke={dark ? 'rgba(251, 191, 36, 0.45)' : 'rgba(180, 83, 9, 0.35)'}
+            stroke={dark ? 'rgba(251, 191, 36, 0.35)' : 'rgba(180, 83, 9, 0.25)'}
             strokeWidth="1.2"
-            strokeDasharray="2 3"
           />
-
-          {/* Solid Concentric Ring */}
           <circle
             cx="32"
             cy="32"
@@ -54,16 +52,12 @@ export const SunLogo: React.FC<SunLogoProps> = ({
             strokeWidth="1.5"
             fill={dark ? '#0B1524' : '#FFFFFF'}
           />
-
-          {/* Central Solar Core */}
           <circle
             cx="32"
             cy="32"
             r="8"
             fill={dark ? '#F59E0B' : '#B45309'}
           />
-
-          {/* 8 Cardinal & Diagonal Architectural Sunrays */}
           <g
             stroke={dark ? '#F59E0B' : '#B45309'}
             strokeWidth="1.75"
@@ -85,7 +79,7 @@ export const SunLogo: React.FC<SunLogoProps> = ({
         <div className="flex flex-col leading-tight text-start">
           <div className="flex items-center gap-1.5">
             <span
-              className={`font-display font-extrabold text-lg sm:text-xl tracking-normal ${
+              className={`font-display font-extrabold text-lg sm:text-xl tracking-normal whitespace-nowrap ${
                 dark ? 'text-white' : 'text-[#0B1524]'
               } ${textClassName}`}
             >
@@ -100,22 +94,24 @@ export const SunLogo: React.FC<SunLogoProps> = ({
               )}
             </span>
           </div>
-          {subtitle ? (
-            <span
-              className={`text-[11px] font-medium leading-none mt-0.5 ${
-                dark ? 'text-gray-400' : 'text-[#5E7086]'
-              }`}
-            >
-              {subtitle}
-            </span>
-          ) : (
-            <span
-              className={`text-[10px] sm:text-[11px] font-normal leading-none mt-0.5 ${
-                dark ? 'text-gray-400' : 'text-[#5E7086]'
-              }`}
-            >
-              {isEn ? 'Teacher Empowerment Afghanistan' : 'توانمندسازی معلمان افغانستان'}
-            </span>
+          {showSubtitle && (
+            subtitle ? (
+              <span
+                className={`text-[11px] font-medium leading-none mt-0.5 ${
+                  dark ? 'text-gray-400' : 'text-[#5E7086]'
+                }`}
+              >
+                {subtitle}
+              </span>
+            ) : (
+              <span
+                className={`text-[10px] sm:text-[11px] font-normal leading-none mt-0.5 ${
+                  dark ? 'text-gray-400' : 'text-[#5E7086]'
+                }`}
+              >
+                {isEn ? 'Teacher Empowerment Afghanistan' : 'توانمندسازی معلمان افغانستان'}
+              </span>
+            )
           )}
         </div>
       )}

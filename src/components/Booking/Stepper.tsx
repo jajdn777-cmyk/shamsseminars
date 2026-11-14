@@ -185,43 +185,18 @@ export const Stepper: React.FC<StepperProps> = ({
   };
 
   return (
-    <section id="booking" className="py-24 md:py-32 bg-transparent border-b border-[#E8E2D4] relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
-        {/* Section Header with On-Scroll Reveal */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.5 }}
-          className="max-w-3xl mb-14 text-start"
-        >
-          <div className="text-xs font-bold text-[#B45309] uppercase tracking-wider mb-2 flex items-center gap-2">
-            <span className="w-3 h-0.5 bg-[#B45309] rounded-full" />
-            <span>{t.booking.kicker}</span>
-          </div>
-          <h2 className="font-display font-black text-2xl sm:text-3xl md:text-4xl text-[#0B1524] leading-tight">
+    <section id="booking" className="py-16 md:py-24 bg-[#FDFBF7] border-b border-[#E8E2D4]">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl mb-10 text-start">
+          <h2 className="font-display font-black text-2xl sm:text-3xl text-[#0B1524] leading-tight">
             {t.booking.title}
           </h2>
           <p className="text-[#5E7086] text-sm sm:text-base mt-2">
             {t.booking.subtitle}
           </p>
-          <motion.div
-            initial={{ width: 0 }}
-            whileInView={{ width: 72 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="h-1 bg-gradient-to-r from-amber-600 to-amber-400 rounded-full mt-3"
-          />
-        </motion.div>
+        </div>
 
-        {/* Executive Ledger Form Container */}
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.1 }}
-          className="max-w-5xl mx-auto celestial-card rounded-3xl p-6 sm:p-10 border border-[#D2C9B6] shadow-md relative"
-        >
+        <div className="max-w-5xl mx-auto bg-white rounded-2xl p-6 sm:p-9 border border-[#E8E2D4]">
           {completedBooking ? (
             <Success
               booking={completedBooking}
@@ -394,7 +369,7 @@ export const Stepper: React.FC<StepperProps> = ({
             </div>
           )}
 
-        </motion.div>
+        </div>
 
       </div>
     </section>

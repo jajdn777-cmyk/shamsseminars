@@ -2,7 +2,7 @@ import React from 'react';
 import { SunLogo } from './SunLogo';
 import { CONFIG } from '../config';
 import { CONTENT, Language } from '../content';
-import { Phone, MessageCircle, MapPin, Clock, ShieldCheck, Lock } from 'lucide-react';
+import { Lock } from 'lucide-react';
 
 interface FooterProps {
   currentLang: Language;
@@ -20,35 +20,24 @@ export const Footer: React.FC<FooterProps> = ({
 
   const quickLinks = [
     { href: '#why', label: t.nav.why },
-    { href: '#model', label: t.nav.model },
-    { href: '#audiences', label: t.nav.audiences },
-    { href: '#programs', label: t.nav.programs },
-    { href: '#quality', label: t.nav.quality },
     { href: '#team', label: t.nav.team },
+    { href: '#programs', label: t.nav.programs },
     { href: '#faq', label: t.nav.faq },
   ];
 
   return (
-    <footer className="bg-[#060B14] border-t border-[#162944] text-white pt-16 pb-24 md:pb-16 relative text-start z-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-white/10">
-          
+    <footer className="bg-[#060B14] border-t border-[#162944] text-white pt-14 pb-24 md:pb-14 text-start relative z-10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-10 border-b border-white/10">
           {/* Brand & Mission */}
           <div className="lg:col-span-5 space-y-4">
-            <SunLogo size={42} dark currentLang={currentLang} />
-            
+            <SunLogo size={38} dark currentLang={currentLang} />
             <p className="text-xs sm:text-sm text-gray-400 leading-relaxed max-w-sm">
               {t.footer.about}
             </p>
-
-            {/* Compliance Note */}
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-3">
-              <ShieldCheck className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
-              <p className="text-xs text-gray-300 leading-relaxed font-normal">
-                {t.footer.compliance}
-              </p>
-            </div>
+            <p className="text-xs text-gray-400 leading-relaxed max-w-sm">
+              {t.footer.compliance}
+            </p>
           </div>
 
           {/* Quick Links */}
@@ -56,7 +45,7 @@ export const Footer: React.FC<FooterProps> = ({
             <h4 className="font-bold text-sm text-white">
               {t.footer.quickLinks}
             </h4>
-            <ul className="space-y-2.5 text-xs sm:text-sm text-gray-400">
+            <ul className="space-y-2 text-xs sm:text-sm text-gray-400">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <a
@@ -79,66 +68,41 @@ export const Footer: React.FC<FooterProps> = ({
             </ul>
           </div>
 
-          {/* Contact Details & Hours */}
-          <div className="lg:col-span-4 space-y-4">
+          {/* Contact Details */}
+          <div className="lg:col-span-4 space-y-3">
             <h4 className="font-bold text-sm text-white">
               {t.footer.contactTitle}
             </h4>
-            
-            <div className="space-y-3 text-xs sm:text-sm text-gray-300">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-amber-400 shrink-0">
-                  <Phone className="w-4 h-4" />
-                </div>
-                <span>
-                  {isRtl ? 'تلفن مستقیم: ' : 'Direct Phone: '}
-                  <a href={`tel:${CONFIG.phone}`} className="font-mono font-bold text-white hover:text-amber-400">
-                    {CONFIG.phone}
-                  </a>
-                </span>
+            <div className="space-y-2.5 text-xs sm:text-sm text-gray-300">
+              <div>
+                <span className="text-gray-400">{isRtl ? 'تلفن مستقیم: ' : 'Phone: '}</span>
+                <a href={`tel:${CONFIG.phone}`} className="font-mono font-bold text-white hover:text-amber-400">
+                  {CONFIG.phone}
+                </a>
               </div>
-
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-emerald-400 shrink-0">
-                  <MessageCircle className="w-4 h-4" />
-                </div>
-                <span>
-                  {isRtl ? 'واتساپ پذیرش: ' : 'Admissions WhatsApp: '}
-                  <a
-                    href={`https://wa.me/${CONFIG.whatsapp}`}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-mono font-bold text-emerald-300 hover:underline"
-                  >
-                    +{CONFIG.whatsapp}
-                  </a>
-                </span>
+              <div>
+                <span className="text-gray-400">{isRtl ? 'واتساپ پذیرش: ' : 'WhatsApp: '}</span>
+                <a
+                  href={`https://wa.me/${CONFIG.whatsapp}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-mono font-bold text-emerald-300 hover:underline"
+                >
+                  +{CONFIG.whatsapp}
+                </a>
               </div>
-
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-amber-400 shrink-0">
-                  <MapPin className="w-4 h-4" />
-                </div>
-                <span>
-                  {isRtl ? `مرکز فعالیت: ${CONFIG.address}` : `Headquarters: ${CONFIG.address}`}
-                </span>
+              <div className="text-gray-300">
+                {isRtl ? `مرکز فعالیت: ${CONFIG.address}` : `Headquarters: ${CONFIG.address}`}
               </div>
-
-              <div className="flex items-center gap-3 pt-1">
-                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center text-amber-400 shrink-0">
-                  <Clock className="w-4 h-4" />
-                </div>
-                <span>
-                  {isRtl ? CONFIG.hours : 'Saturday to Thursday, 8:00 AM – 4:00 PM (Fridays closed)'}
-                </span>
+              <div className="text-gray-400 text-xs">
+                {isRtl ? CONFIG.hours : 'Saturday to Thursday, 8:00 AM – 4:00 PM (Fridays closed)'}
               </div>
             </div>
           </div>
-
         </div>
 
-        {/* Bottom Bar: Copyright & Admin Portal */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+        {/* Bottom Bar */}
+        <div className="pt-7 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>{t.footer.allRights}</p>
 
           <button
@@ -151,7 +115,6 @@ export const Footer: React.FC<FooterProps> = ({
             <span>{t.footer.adminLink}</span>
           </button>
         </div>
-
       </div>
     </footer>
   );

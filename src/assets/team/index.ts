@@ -1,4 +1,4 @@
-import fahimaShamsPhoto from './fahima-shams.jpg';
+import fahimaShamsPhoto from './fahima-shams.jpeg';
 import zabiullahFazliPhoto from './zabiullah-fazli.jpg';
 import nasirPopalzaiPhoto from './nasir-popalzai.jpg';
 import masoudaAnwariPhoto from './masouda-anwari.jpg';
