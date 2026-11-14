@@ -1,3 +1,5 @@
+import { TEAM_PHOTOS } from './assets/team';
+
 export interface AppConfig {
   brand: string;
   short: string;
@@ -80,7 +82,7 @@ export const CONFIG: AppConfig = {
       name: 'فهیمه شمس',
       role: 'بنیانگذار مرکز توانمندسازی معلمان شمس',
       initials: 'ف.ش',
-      photo: '/team/fahima-shams.jpg',
+      photo: TEAM_PHOTOS.fahimaShams,
       photoPosition: 'object-[center_20%]',
       badge: 'بنیانگذار | ۱۵+ سال تجربه',
       degree: 'متخصص تعلیم و تربیه و استاد پوهنتون',
@@ -93,7 +95,7 @@ export const CONFIG: AppConfig = {
       name: 'ذبیح‌الله فضلی',
       role: 'معاون علمی پوهنتون و متخصص رهبری آموزشی',
       initials: 'ذ.ف',
-      photo: '/team/zabiullah-fazli.jpg',
+      photo: TEAM_PHOTOS.zabiullahFazli,
       photoPosition: 'object-[center_25%]',
       badge: 'دانشجوی دکتری | رئیس پیشین پوهنتون',
       degree: 'دانشجوی دکتری مدیریت دولتی | ماستر مدیریت تعلیمی',
@@ -107,7 +109,7 @@ export const CONFIG: AppConfig = {
       alias: 'ملک محمد پوپل',
       role: 'مشاور حقوقی و عضو ارشد مرکز شمس',
       initials: 'ن.پ',
-      photo: '/team/nasir-popalzai.jpg',
+      photo: TEAM_PHOTOS.nasirPopalzai,
       photoPosition: 'object-center',
       badge: '۲۰ سال تجربه معارف',
       degree: 'کارشناسی ارشد حقوق خصوصی | لیسانس حقوق',
@@ -120,7 +122,7 @@ export const CONFIG: AppConfig = {
       name: 'استاد مسعوده انوری',
       role: 'عضو علمی و همکار مرکز توانمندسازی معلمان شمس',
       initials: 'م.ا',
-      photo: '/team/masouda-anwari.jpg',
+      photo: TEAM_PHOTOS.masoudaAnwari,
       photoPosition: 'object-[center_35%]',
       badge: 'شوونیار (پوهنیار) | ماستر ادبیات',
       degree: 'ماستر زبان و ادبیات فارسی دری و تعلیم و تربیه',
@@ -133,7 +135,7 @@ export const CONFIG: AppConfig = {
       name: 'حکیمه کریمی',
       role: 'مدیر توسعه منابع بشری و آموزش',
       initials: 'ح.ک',
-      photo: '/team/hakima-karimi.jpg',
+      photo: TEAM_PHOTOS.hakimaKarimi,
       photoPosition: 'object-[center_55%]',
       badge: 'ماستر تعلیم و تربیه',
       degree: 'ماستر تعلیم و تربیه',
